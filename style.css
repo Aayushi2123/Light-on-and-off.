@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&family=Rubik+Iso&display=swap');
+
+
+*{margin:21px;
+    padding: -4px;
+    margin-top: 0;
+box-sizing: border-box;}
+
+body{
+    font-family: 'Rubik Iso', cursive;;
+    height: 100vh;
+    background: linear-gradient(90deg, #7f23a9 0%, #bd47a7 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:black;
+    font-size: 30px;
+}
+.main-heading h2{
+    margin-bottom: 20px;
+}
+button{
+    display: inline-block;
+    background: yellow;
+    color: rgb(97, 67, 153);
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 3px;
+    transition: 400ms;
+    text-decoration: none;
+    padding: 10px;
+    z-index: 100000;
+}
+img{
+    width: 100px;
+}
